@@ -1,0 +1,32 @@
+
+Abstract:  Data Security is a challenging issue of data communications today that touches many areas including secure communication channels, strong data encryption technique and trusted third party to maintain the database. The rapid development in information technology, the secure transmission of confidential data herewith gets a great deal of attention. The conventional methods of encryption can only maintain the data security. The information could be accessed by the unauthorized user for malicious purpose. Therefore, it is necessary to apply effective encryption/ decryption methods to enhance data security. This paper describes a new method of encrypting original data parts with different strong cryptographic encryption algorithms and LSB Image Steganography to hide the decryption keys in an image. This encryption technique enhances the complexity in encryption algorithm at large extent. This paper becomes very special in few aspects, all of them are explained in a detailed way in the chapters.
+Keywords: Cryptographic, Data Security, Decryption, Decryption Keys, Encryption, Information Technology, 	LSB Image Steganography
+
+ 
+I.	INTRODUCTION
+
+The paper is so well organized as follows starting with and navigates in the order: 
+Introduction 
+Proposed methodology 
+Cryptography and Steganography
+Results 
+Conclusion
+Future Work
+
+Digital communication witnesses a noticeable and continuous development in many applications in the Internet. Hence, secure communication sessions must be provided. The security of data transmitted across a global network has turned into a key factor on the network performance measures. So, the confidentiality and the integrity of data are needed to prevent eavesdroppers from accessing and using transmitted data. Steganography and Cryptography are two important techniques that are used to provide data security. Cryptography is the science of devising methods that allow information to be sent in a secure form in such
+a way that the only person able to retrieve this information is the intended recipient. The aim is to develop a new approach to encrypting a message with multiple encryption methods and hiding required keys in an image, by taking advantage of combining cryptography and steganography.
+
+II.	PROPOSED METHODOLOGY
+
+Here first the encryption part is discussed and the decryption is paid attention then. 
+
+
+A.	Encryption: 
+
+Step 1: Splitting the message into multiple parts and these files are then given as input to algorithm.
+
+Step 2: Encrypting each split files by different algorithms which are selected randomly from list of encryption algorithms. 
+
+Step 3: The required keys (Encryption/Decryption keys) are then hided inside image Using LSB Image Steganography. 
+
+Step 4: The encrypted files and steganographic image are then zipped and sent as output. 
